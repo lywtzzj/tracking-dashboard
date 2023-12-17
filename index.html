@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- personal profile card-->
+
+  <article class="card-profile">
+
+    <!--profile photo-->
+
+    <div class="card-profile-header">
+
+      <img src="images/image-jeremy.png" alt="Jeremy Robson" class="card-profile-header-icon">
+
+      <!--profile name-->
+      <div class="card-profile-body">
+        <p class="report-for">Report for</p>
+        <h1 class="profile-name">Jeremy Robson</h1>
+      </div>
+
+    </div>
+
+    <!--time option-->
+
+    <div class="profile-control">
+
+      <span class="card-tracking-time-option" id="daily">Daily</span>
+      <span class="card-tracking-time-option selected" id="weekly">Weekly</span>
+      <span class="card-tracking-time-option" id="monthly">Monthly</span>
+
+    </div>
+  </article>
+
+
+
+  <!-- work function card-->
+
+
+  <article class="card-tracking-time" id="card-work">
+
+    <div class="card-tracking-time-header">
+      <img src="images/icon-work.svg" alt="Work Icon" class="activity-icon">
+    </div>
+    
+
+
+    <div class="card-tracking-time-body">
+
+      <h3 class="activity-title">Work</h3>
+      <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
+
+      <p class="activity-time Week" id="work-current">32hrs</p>
+      <p class="activity-previous Week" id="work-previous">Last Week - 36hrs</p>
+    </div>
+
+  </article>
+
+
+  <!-- play function card-->
+
+  <article class="card-tracking-time" id="card-play">
+
+    <div class="card-tracking-time-header">
+      <img src="images/icon-play.svg" alt="Play Icon" class="activity-icon">
+    </div>
+
+
+    <div class="card-tracking-time-body">
+
+      <h3 class="activity-title">Play</h3>
+      <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
+
+      <p class="activity-time Week" id="play-current">10hrs</p>
+      <p class="activity-previous Week" id="play-previous">Last Week - 8hrs</p>
+    </div>
+
+  </article>
+
+
+
+  <!--study function card-->
+
+  <article class="card-tracking-time" id="card-study">
+
+    <div class="card-tracking-time-header">
+      <img src="images/icon-study.svg" alt="Study Icon" class="activity-icon">
+    </div>
+    
+
+
+    
+    <div class="card-tracking-time-body">
+
+      <h3 class="activity-title">Study</h3>
+      <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
+
+      <p class="activity-time Week" id="study-current">4hrs</p>
+      <p class="activity-previous Week" id="study-previous">Last Week - 7hrs</p>
+    </div>
+
+  </article>
+
+
+
+  <!--exercise function card-->
+
+  <article class="card-tracking-time" id="card-exercise">
+
+    <div class="card-tracking-time-header">
+      <img src="images/icon-exercise.svg" alt="Exercise Icon" class="activity-icon">
+    </div>
+
+
+    <div class="card-tracking-time-body">
+
+      <h3 class="activity-title">Exercise</h3>
+      <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
+
+      <p class="activity-time Week" id="exercise-current">4hrs</p>
+      <p class="activity-previous Week" id="exercise-previous">Last Week - 5hrs</p>
+    </div>
+
+  </article>
+
+
+
+  <!--Social function card-->
+
+  <article class="card-tracking-time" id="card-social">
+
+    <div class="card-tracking-time-header">
+      <img src="images/icon-social.svg" alt="Social Icon" class="activity-icon">
+    </div>
+
+
+    <div class="card-tracking-time-body">
+
+      <h3 class="activity-title">Social</h3>
+      <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
+
+      <p class="activity-time Week" id="social-current">5hrs</p>
+      <p class="activity-previous Week" id="social-previous">Last Week - 10hrs</p>
+    </div>
+
+  </article>
+
+
+
+  <!--Self Care function card-->
+
+  <article class="card-tracking-time" id="card-self-care">
+
+    <div class="card-tracking-time-header">
+      <img src="images/icon-self-care.svg" alt="Self Care Icon" class="activity-icon">
+    </div>
+    
+
+
+    <div class="card-tracking-time-body">
+
+      <h3 class="activity-title">Self Care</h3>
+      <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
+
+      <p class="activity-time Week" id="self-care-current">2hrs</p>
+      <p class="activity-previous Week" id="self-care-previous">Last Week - 2hrs</p>
+    </div>
+
+  </article>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+</html>
